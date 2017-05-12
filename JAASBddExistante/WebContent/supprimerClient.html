@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Modèle</title>
+		<!--sert à récupérer la taille du terminal utilisé  -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="content">
+			<div class="block">
+				<h2>Formulaire</h2>
+				<form method="post" action="MaServletSuppr">
+					<fieldset id="section1">
+						<legend>Modifier un client</legend>
+						<label for="id">Tapez l'identifiant du client à supprimer :</label>
+						<input type="text" name="id" id="id"/><br/>
+					</fieldset>
+					<input type="submit" value="valider"/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Modèle</title>
+		<!--sert à récupérer la taille du terminal utilisé  -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<link rel="stylesheet" href="../css/style.css"/>
+	</head>
+	<body>
+		<div id="content">
+			<div class="block">
+				<h2>Formulaire</h2>
+				<form method="post" action="MaServletAjout">
+					<fieldset id="section1">
+						<legend>Ajouter un client</legend>
+						<label for="nom">Saisir votre nom :</label>
+						<input type="text" name="nom" id="nom"/><br/>
+						<label for="prenom">Saisir votre prénom :</label>
+						<input type="text" name="prenom" id="prenom"/><br/>
+						<label for="couleuryeux">Saisir la couleur de vos yeux :</label>
+						<input type="text" name="couleuryeux" id="couleuryeux"/><br/>
+						<label for="age">Saisir votre âge :</label>
+						<input type="text" name="age" id="age"/><br/>
+						<label for="password">Saisir votre mot de passe :</label>
+						<input type="password" name="password" id="password"/><br/>
+					</fieldset>
+					<input type="submit" value="valider"/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
